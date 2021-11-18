@@ -1,0 +1,7 @@
+.banner-container {
+	height: 100vh;
+	background-image: url(./../../../images/travel-banner.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+}

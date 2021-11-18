@@ -1,0 +1,18 @@
+.messageUs-container {
+	height: 50vh;
+	background-color: #e3ffdc;
+}
+.messageUs-container input {
+	width: 45%;
+	margin-right: 15px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+.messageUs-container input:focus {
+	outline: none;
+}
+.fa-telegram-plane {
+	font-size: 60px;
+}

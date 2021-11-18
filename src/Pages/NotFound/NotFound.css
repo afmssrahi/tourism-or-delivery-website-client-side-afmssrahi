@@ -1,0 +1,6 @@
+.not-found{
+    height: 100vh;
+    background-image: url(./../../images/404.jpg);
+    background-size: cover;
+    background-position: center center;
+}
