@@ -27,4 +27,4 @@ TravelBari is a Site for booking different tours all around the world. Client's 
 4. Firebase.
 5. Node.
 6. Express.
-7. MongoDB.
+7. MongoDB
