@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+## TravelBari
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Website Link [TravelBari](https://travel-bari.web.app/).
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+TravelBari is a Site for booking different tours all around the world. Client's safety is our top priority. Since 2016, we’ve helped more than 200,000 people of all ages enjoy the best outdoor experience.
 
-### `yarn start`
+## Functionality used-
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. This site is a single page application and has a total of six routes(Home, My Booking, Manage All Booking, Add Tour, SignIn).
+2. Header and footer are shared in all routes.
+3. Home route has 6 section in total(Banner, Tours, About, Discount on multi tours and message us) excluding Header and footer.
+4. Each service has a 'Proceed to Booking' button which lead to a protected route in which the extra service details are shown and user gets to fill up a form and Book the clicked tour.
+5. If you are not logged in then clicking 'Proceed to Booking' button will redirect you to Login page. And after login you will be redirected to initial page. My Bookings , Manage all Bookings and Add Tour routes are protected too.
+6. Sign Up has google sign in authentication. User Details is shown via bootstrap modal in the Header.
+7. Once logged in a user can see tour details and other protected routes, and will appear a logOut button on Header which will log out the user.
+8. This site is responsive for mobile and tablet devices.
+9. All the data used in this site are from mongoDb database.
+10. I have also implemented the 'CRUD' opertion in (Home, My bookings, Manage All bookings, Add tour) via node, express, mongoDb.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technology used-
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. React.
+2. React Bootstrap.
+3. React Router.
+4. Firebase.
+5. Node.
+6. Express.
+7. MongoDB.
